@@ -12,16 +12,14 @@ class Pages extends BaseController
             'title' => "Home | Kurios Utama",
             'tes'   => ['satu', 'dua', 'tiga', 'empat']
         ];
-
-        echo view('layout/header', $data);
-        echo view('pages/home');
-        echo view('layout/footer');
+        return view('pages/home', $data);
     }
 
     public function about()
     {
-        echo view('layout/header');
-        echo view('pages/about');
-        echo view('layout/footer');
+        $data = [
+            'title' => "About | Kurios Utama"
+        ];
+        return view('pages/about', $data);
     }
 }

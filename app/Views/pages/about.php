@@ -1,3 +1,10 @@
+<?= $this->extend('layout/template'); ?>
+
+
+<?= $this->section('content'); ?>
 <div class="body-content">
-    <h1>ini halaman about</h1>
+    <h1>ini about</h1>
 </div>
+
+
+<?= $this->endSection(); ?>
