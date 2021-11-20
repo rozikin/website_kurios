@@ -20,7 +20,7 @@
 # APP
 #--------------------------------------------------------------------
 
-# app.baseURL = ''
+app.baseURL = 'http://localhost:8080/'
 # app.forceGlobalSecureRequests = false
 
 # app.sessionDriver = 'CodeIgniter\Session\Handlers\FileHandler'
@@ -40,7 +40,7 @@
  database.default.hostname = localhost
  database.default.database = db_kurios
  database.default.username = root
- database.default.password = ''
+ database.default.password = 
  database.default.DBDriver = MySQLi
  database.default.DBPrefix =
 
